@@ -1,0 +1,244 @@
+
+body{ 
+  background:#ffbf00;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.jumbotron-header{
+    background:url(virus123.jpg);
+    height:680px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.navFix{
+    position:fixed;
+    width:100%;
+    height:auto;
+    background:#ff8000;
+}
+#navMenu{
+    font-size:24px;
+}
+#navMenu a{
+    color:white;
+}
+#navMenu a:hover{
+    border:2px solid white;
+    border-radius:20px;
+    background:#7f8c8d;
+}
+.header-h1{
+    padding-top:20px;
+    text-align:center;
+    color:#fff;
+    font-size:45px;
+    font-weight: 900;
+    font-style:italic;
+    margin-top: 80px;
+}
+
+.button{ 
+    color:whitesmoke;
+    font-size:23px;
+    font-weight:bold;
+    text-decoration: none;
+}
+.button:hover{
+    text-decoration: none;
+    color:white;
+}
+.covid1,.covid2{
+    font-size:34px;
+    text-align:center;
+}
+.card-img{
+    height:100%;
+    border-radius:10px;
+
+}
+.card-header{
+  background-color: #ff8000;
+}
+.card-header{
+  background-color: #ff8000;
+  }
+.kartica1:hover,.kartica2:hover{
+    filter: drop-shadow(2px 2px 2px #636e72);
+}
+
+.kartica2,.kartica1{
+    border:2px solid blue;
+    margin-top:20px;
+    border-radius:10px;
+}
+.text1{
+    font-style:italic;
+    font-size:18px;
+}
+.logo{
+    max-width:65px;
+    max-height:65px;
+}
+.naslov{
+    font-size:30px;
+    font-weight:600;
+    color:white;
+    text-transform:uppercase;
+    padding-left:10px;
+}
+.naslov:hover{
+  text-decoration:none;
+  color:#2c3e50;
+}
+.izgled{
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+}
+.list-inline-item{
+        display:inline-flex;
+        text-decoration: none;
+        font-size:30px;
+        width:60px;
+        height: 60px;
+        color:blue;;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin:0 8px;
+
+}
+.list-inline-item a:hover i{
+	transform: scale(2.2);
+}
+
+  #futer{
+    color:blue;
+    font-size:24px;
+}
+ .futer{
+     padding-top:20px;
+     bottom:0;
+     margin-top:100px;
+ }
+  .ikona{
+    color:blue;
+    font-size:24px;
+    letter-spacing:40px;
+  }
+  .ikona:hover {
+    text-decoration: none;
+    color: #3c6360;
+    transform:scale(1.6);
+    transition:0.4s;
+  }
+  .bg-black {
+    height:30%;
+    background-color: #ff8000 !important;
+  }
+  .svekartice{
+      margin-top:10%;
+      text-align:center;
+  }
+.kartica3{
+    margin-top:20px;
+}
+  .btn-link{
+      color:whitesmoke;
+      font-size:20px;
+      font-style:italic;
+  }
+  .btn-primary{
+    background-color: #ff8000;
+  }
+  .galerija33{
+    margin-top:100px;
+}
+
+.slider{
+  margin-top: 30px;
+}
+
+.obavestenja{
+  margin-top: 30px;
+}
+
+.galerija{
+  margin-top: 25px;
+  
+}
+
+#contact {
+  background-color: #ffbf00;
+  margin-top: 25px;
+  bottom: 0;
+}
+
+.btn-submit, .btn-submit:hover, .btn-submit:focus {
+  background-color: transparent;
+  border-radius: 60px;
+  color: #be9e21;
+  font-weight: 400;
+  border: 1px solid #be9e21;
+  font-size: 14px;
+  padding: 6px 20px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0px;
+  color: #be9e21 !important;
+  border-color: #be9e21;
+}
+
+.form-control:focus {
+  border-color: #be9e21;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.contact-form input.form-control {
+  color: #fff;
+}
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#sendmessage {
+  color: green;
+  border: 1px solid green;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+  display: block;
+}
+
+.loction-info p {
+  margin-bottom: 25px;
+}
+
+.loction-info p i {
+  color: #be9e21;
+}
